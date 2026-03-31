@@ -1,5 +1,5 @@
 import DepartmentTemplate from "./DepartmentTemplate";
-import pathology from "../../assets/images/departments/pathology.jpg";
+import pathology from "../../assets/images/departments/Pathology.jpg";
 
 function Pathology() {
 
