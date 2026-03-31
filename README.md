@@ -1,16 +1,43 @@
-# React + Vite
+## Hospital Management Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive and modern hospital website built using React.js. This project focuses on delivering a clean UI/UX with smooth navigation, animated components, and structured healthcare information.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## React Compiler
+- Smooth page transitions with custom loader
+- Dynamic routing using React Router
+- Fully responsive design (mobile, tablet, desktop)
+- Interactive navbar with dropdown menus
+- Scroll animations using AOS (Animate On Scroll)
+- Dedicated pages for departments and specialities
+- Doctor listing section
+- Contact and About pages
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+---
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- React Router DOM
+- Tailwind CSS
+- AOS (Animate On Scroll)
+- JavaScript (ES6+)
+
+---
+
+## Project Structure
+
+- `/pages` → All main pages (Home, About, Contact, etc.)
+- `/components` → Reusable UI components
+- `/departments` → Department-specific pages
+- `/specialities` → Medical speciality pages
+
+---
+
+## Getting Started
+
+```bash
+npm install
+npm run dev
