@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## Hospital Management Website
 
 A fully responsive and modern hospital website built using React.js. This project focuses on delivering a clean UI/UX with smooth navigation, animated components, and structured healthcare information.
@@ -41,3 +42,7 @@ A fully responsive and modern hospital website built using React.js. This projec
 ```bash
 npm install
 npm run dev
+=======
+# Hospital-Website
+A modern, responsive hospital website built with React, featuring dynamic routing, animated UI, department pages, and a smooth user experience with custom loaders and transitions.
+>>>>>>> 23a6421 (Initial commit)
