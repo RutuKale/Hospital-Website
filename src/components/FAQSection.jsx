@@ -100,7 +100,8 @@ const FAQSection = () => {
                                 </button>
 
                                 {/* Answer */}
-                                <div className={`${openIndex === index ? 'mt-4 block' : 'hidden'}`}>
+                                <div
+                                    className={`overflow-hidden transition-all duration-500 ease-in-out ${openIndex === index ? 'max-h-[500px] opacity-100 mt-4' : 'max-h-0 opacity-0'}`}>
                                     <div className="bg-blue-50/50 rounded-xl p-3 sm:p-4 md:p-5 text-xs sm:text-sm md:text-base text-gray-600 leading-relaxed">
                                         {faq.answer}
                                     </div>

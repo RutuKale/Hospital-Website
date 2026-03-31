@@ -383,24 +383,20 @@ const Home = () => {
                                 <div
                                     key={index}
                                     data-aos="fade-up"
-                                    className="group relative bg-white/70 backdrop-blur-xl border border-white/40 rounded-3xl p-6 sm:p-7 md:p-8 lg:p-10 shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-3 overflow-hidden"
-                                >
-
+                                    className="group relative bg-white/70 backdrop-blur-xl border border-white/40 rounded-3xl p-6 sm:p-7 md:p-8 lg:p-10 shadow-lg hover:shadow-2xl transition-all duration-300 hover:-translate-y-3 overflow-hidden">
                                     {/* Hover Gradient Border */}
-                                    <div className="absolute inset-0 rounded-3xl border-2 border-transparent group-hover:border-blue-500 transition-all duration-500"></div>
-
+                                    <div className="absolute inset-0 rounded-3xl border-2 border-transparent group-hover:border-blue-500 transition-all duration-300"></div>
                                     {/* Icon */}
                                     <div className="flex items-center justify-center w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 lg:w-16 lg:h-16 rounded-2xl bg-blue-100 text-blue-600 mb-4 md:mb-6 mx-auto group-hover:text-white transition-all duration-500 transform group-hover:scale-110 shadow-md">
                                         {value.icon}
                                     </div>
-
                                     {/* Title */}
                                     <h3 className="text-md md:text-xl font-bold text-gray-900 text-center mb-4 group-hover:text-blue-600 transition-colors">
                                         {value.title}
                                     </h3>
 
                                     {/* Content */}
-                                    <p className="text-gray-600 text-center text-justify leading-relaxed text-xs">
+                                    <p className="text-gray-600 text-center text-justify leading-relaxed text-xs sm:text-sm md:text-md lg:text-md">
                                         {value.content}
                                     </p>
 

@@ -1,5 +1,5 @@
 import SpecialityBase from "../../pages/Specialities/SpecialityBase";
-import orthopaedicsImg from "../../assets/images/specialities-offer/Orthopaedics-about.jpg";
+import orthopaedicsImg from "../../assets/images/specialities-offer/OrthopaedIcs-about.jpg";
 import backseat from "../../assets/images/specialities-offer/backseat-banner.png";
 import backseatBg from "../../assets/icons/backseat-banner.svg";
 
