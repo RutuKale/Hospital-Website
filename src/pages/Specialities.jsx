@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import GYNAECOLOGY from '../assets/images/specialities-offer/GYNAECOLOGY.png';
 import ONCOLOGY from '../assets/images/specialities-offer/ONCOLOGY.png';
-import PLASTIC_SURGERY from '../assets/images/specialities-offer/PLASTIC-SURGERY.PNG';
+import PLASTIC_SURGERY from '../assets/images/specialities-offer/PLASTIC-SURGERY.png';
 import PULMONOLOGY from '../assets/images/specialities-offer/PULMONOLOGY.PNG';
 import GASTROENTEROLOGY from '../assets/images/specialities-offer/GASTROENTEROLOGY.png';
 import PSYCHIATRY from '../assets/images/specialities-offer/PSYCHIATRY.png';
