@@ -175,11 +175,11 @@ const Home = () => {
           <img
             src="/home-hero-bg-image.avif"
             alt="Hospital Hero"
-            className="absolute inset-0 w-full h-full object-cover object-right block md:hidden"
+            className="absolute inset-0 w-full h-full object-cover object-[85%_center] block md:hidden"
             loading="eager"
           />
           <video
-            className="absolute inset-0 w-full h-full object-cover hidden md:block"
+            className="absolute inset-0 w-full h-full object-cover hidden sm:block md:block lg:block"
             autoPlay
             muted
             loop
