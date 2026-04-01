@@ -81,11 +81,11 @@ const Footer = () => {
                     <div data-aos="fade-up">
                         <h3 className="text-base sm:text-lg md:text-xl font-bold text-white mb-3 md:mb-6">Treatments</h3>
                         <ul className="space-y-1 sm:space-y-2 md:space-y-3 text-xs sm:text-sm md:text-base lg:text-lg">
-                            <li><Link to="#" className="text-gray-400 hover:text-white transition-colors">Cardiology</Link></li>
-                            <li><Link to="#" className="text-gray-400 hover:text-white transition-colors">Neurology</Link></li>
-                            <li><Link to="#" className="text-gray-400 hover:text-white transition-colors">Orthopedics</Link></li>
-                            <li><Link to="#" className="text-gray-400 hover:text-white transition-colors">Oncology</Link></li>
-                            <li><Link to="#" className="text-gray-400 hover:text-white transition-colors">Gynecology</Link></li>
+                            <li><Link to="/cardiology" className="text-gray-400 hover:text-white transition-colors">Cardiology</Link></li>
+                            <li><Link to="/urology" className="text-gray-400 hover:text-white transition-colors">urology</Link></li>
+                            <li><Link to="/orthopaedics" className="text-gray-400 hover:text-white transition-colors">Orthopedics</Link></li>
+                            <li><Link to="/oncology" className="text-gray-400 hover:text-white transition-colors">Oncology</Link></li>
+                            <li><Link to="/gynaecology" className="text-gray-400 hover:text-white transition-colors">Gynecology</Link></li>
                         </ul>
                     </div>
                     </div>

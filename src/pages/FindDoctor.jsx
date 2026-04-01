@@ -269,13 +269,9 @@ function FindDoctor() {
         <Layout>
             <div className="min-h-screen bg-gray-50">
                 {/* Responsive Hero Section */}
-                <section data-aos="fade-down" className="relative min-h-[100vh] overflow-hidden bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400">
-                    {/* Background Blur Elements - Hidden on mobile */}
-                    <div className="absolute top-[-100px] left-[-100px] w-[200px] md:w-[300px] h-[200px] md:h-[300px] bg-blue-300 opacity-30 rounded-full blur-3xl"></div>
-                    <div className="absolute bottom-[-120px] right-[-100px] w-[250px] md:w-[350px] h-[250px] md:h-[350px] bg-white opacity-20 rounded-full blur-3xl"></div>
-
-                    <div className="relative max-w-7xl top-24 md:top-24 mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12 md:py-16 lg:py-24">
-                        <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-6 sm:gap-8 md:gap-12">
+                <section data-aos="fade-down" className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-r from-blue-600 via-blue-500 to-blue-400">
+                    <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 sm:py-16 md:py-20 lg:py-24 w-full">
+                        <div className="flex flex-col-reverse lg:flex-row items-center justify-center lg:justify-between text-center lg:text-left gap-6 sm:gap-8 md:gap-12">
                             {/* Content Side */}
                             <div data-aos="fade-right" className="lg:w-1/2 text-center lg:text-left space-y-4 sm:space-y-5 md:space-y-6 pb-10 md:pb-0">
                                 {/* Badge */}
@@ -286,7 +282,7 @@ function FindDoctor() {
                                 </div>
 
                                 {/* Heading */}
-                                <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-extrabold leading-tight">
+                                <h1 className="text-3xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-extrabold leading-tight">
                                     Find the <span className="text-yellow-500 inline-block">Best Doctors</span>
                                     <br className="hidden sm:block" />
                                     <span className="text-white"> For Your Health</span>
@@ -416,7 +412,7 @@ function FindDoctor() {
                         {/* Doctors Grid */}
                         {currentDoctors.length > 0 ? (
                             <>
-                                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-5 md:gap-6 lg:gap-8">
+                                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 sm:gap-7 md:gap-8 lg:gap-9">
                                     {currentDoctors.map((doctor, index) => (
                                         <div
                                             key={index} data-aos="zoom-in"

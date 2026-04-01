@@ -273,7 +273,7 @@ const About = () => {
                                 <img
                                     src={building}
                                     alt="Doctors performing surgery in ICU"
-                                    className="w-full h-[20rem] md:h-full object-cover transform transition-transform duration-700 group-hover:scale-105 rounded-xl"
+                                    className="w-full h-[28rem] sm:h-[48rem] object-cover transform transition-transform duration-700 group-hover:scale-105 rounded-xl mb-2 sm:mb-4"
                                 />
                             </div>
                         </div>
