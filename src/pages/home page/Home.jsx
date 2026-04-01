@@ -171,8 +171,15 @@ const Home = () => {
       <div className="flex flex-col min-h-screen">
         {/* Hero Section */}
         <section className="relative w-full h-[100vh] overflow-hidden">
+          {/* MOBILE IMAGE */}
+          <img
+            src="/home-hero-bg-image.avif"
+            alt="Hospital Hero"
+            className="absolute inset-0 w-full h-full object-cover object-right block md:hidden"
+            loading="eager"
+          />
           <video
-            className="absolute inset-0 w-full h-full object-cover"
+            className="absolute inset-0 w-full h-full object-cover hidden md:block"
             autoPlay
             muted
             loop
